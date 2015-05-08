@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">co-lect</string>
+
+
+    <string name="hello">Hello World, co-lect!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_section1">Collection</string>s
+    <string name="title_section2">Wishlist</string>
+    <string name="title_section3">Friends</string>
+    <string name="action_example">Example action</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_id">1385442858451802</string>
+</resources>

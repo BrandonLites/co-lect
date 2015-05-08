@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+        <!-- Thumbnail Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image_frame"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_frame"
+        android:layout_toRightOf="@+id/image_frame"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <!-- Platform -->
+    <TextView
+        android:id="@+id/platform"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_frame"
+        android:layout_below="@id/title"
+        android:layout_marginTop="1dip"
+        android:textSize="13dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
